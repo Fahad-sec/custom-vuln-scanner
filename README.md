@@ -27,5 +27,7 @@ A custom-built vulnerability scanner to deep dive into learning networking, fing
     └── app.py
 ```
 
-## cli.py:
+# File/directory discriptions:
+
+## cli.py
 It is the brain of the scanner which helps running all the functions of the scanner with one command. e.g: python3 cli.py example.com
