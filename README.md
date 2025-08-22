@@ -42,3 +42,9 @@ core.py acts as the heart of the scanner, It performs tcp port scanning, banner 
 - Runs given modules for HTTP,FTP,SSH etc
 - Logs scan and results.
 - Saves the scan results in the results/ directory in JSON format.
+
+## logger.py
+This module handles all logging for the scanner:
+- Logs messages with timestamps to both the console and a file.
+- Log files are stored in the log/ directory saved as scanner.log.
+- Automatically creats a log.]/ directory if it does not exist.
