@@ -1,3 +1,5 @@
+# Example of the saved logs:
+
 [2025-08-21 14:49:21] Starting scan on 127.0.0.1
 [2025-08-21 14:49:21] [+] Port 21 is open
 [2025-08-21 14:49:21] [+] Port 80 is open
