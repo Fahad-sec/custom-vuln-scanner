@@ -43,8 +43,15 @@ core.py acts as the heart of the scanner, It performs tcp port scanning, banner 
 - Logs scan and results.
 - Saves the scan results in the results/ directory in JSON format.
 
-## logger.py
+## logger.py:
 This module handles all logging for the scanner:
 - Logs messages with timestamps to both the console and a file.
 - Log files are stored in the log/ directory saved as scanner.log.
 - Automatically creats a log.]/ directory if it does not exist.
+
+## vuln_lookup.py:
+This module handles parsing serivce banners and quering CVE databases for known vulnerabilities.
+## Features:
+- Extract service name and version from a banner string.
+- Queries the CIRCL CVE SEARCH API for vulnerabilities related to acquired version/service.
+- Returns a list of CVEs or an empty list if none are found.
