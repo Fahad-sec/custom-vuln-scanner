@@ -1,0 +1,11 @@
+[2025-08-21 14:49:21] Starting scan on 127.0.0.1
+[2025-08-21 14:49:21] [+] Port 21 is open
+[2025-08-21 14:49:21] [+] Port 80 is open
+[2025-08-21 14:49:21] [+] Port 443 is open
+[2025-08-21 14:49:21] [+] Scan complete. open ports: [21, 80, 443]
+[2025-08-21 14:49:22] [+] Running module scan_ftp for 127.0.0.1:21
+[2025-08-21 14:49:22] [+] Scanning FTP on 127.0.0.1:21
+[2025-08-21 14:49:22] [+] FTP Banner: 220 (vsFTPd 3.0.5)
+[2025-08-21 14:49:26] [-] Anonymous login not allowed.
+[2025-08-21 14:49:36] [+] Running module scan_http for 127.0.0.1:80
+[2025-08-21 14:49:46] [+] Saved scan results to /home/solvek/Documents/custom-vuln-scanner/scanner/../results/scan_20250821_144946.json
